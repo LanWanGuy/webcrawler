@@ -3,6 +3,7 @@ from urllib.parse import urlsplit, urljoin
 from typing import TypedDict
 
 
+
 class PageData(TypedDict):
     url: str
     heading: str
